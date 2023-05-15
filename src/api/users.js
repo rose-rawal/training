@@ -48,6 +48,7 @@ export const updateUser = async ({
     name,
     age
 }) => {
+    console.log(_id)
     const result = await axiosInstance.put(`/api/users/${_id}`, {
         name,
         age

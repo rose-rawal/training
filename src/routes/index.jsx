@@ -4,6 +4,7 @@ import Contact from "../pages/contact";
 import ContextPage from "../pages/context";
 import ItemsPage from "../pages/items";
 import Page404 from "../pages/Page404";
+import Update from "../pages/update";
 import UsersPage from "../pages/users";
 
 export const routes = [
